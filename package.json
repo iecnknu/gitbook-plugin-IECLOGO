@@ -1,0 +1,22 @@
+{
+    "name": "gitbook-plugin-IECLOGO",
+    "version": "0.0.1",
+    "description": "insert the IEC logo to Published with GitBook",
+    "engines": {
+        "gitbook": ">1.x.x"
+    },
+    "gitbook": {
+    "properties": {
+      "link": {
+        "default": "https://www.nknucsec.com",
+        "description": "the link when you click",
+        "type": "string"
+      },
+      "publisher": {
+        "default": "Published with IEC, NKNU",
+        "description": "describe who publish this doc!",
+        "type": "string"
+      }
+    }
+  },
+}
